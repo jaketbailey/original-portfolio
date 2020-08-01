@@ -1,0 +1,9 @@
+#Group 1
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /projects
+Allow: /contact
+Disallow: /robots.txt
+Disallow: /public/images
+Disallow: /public/videos

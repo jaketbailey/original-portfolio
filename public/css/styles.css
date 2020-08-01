@@ -1,0 +1,437 @@
+/* Adjusts page to fit screensize */
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
+@media screen and (min-width: 1101px) {
+    /* CSS for screens that are 1001 pixels or more will be put in this section */
+
+    /* Introduction CSS for the homepage for large screens*/
+    p.intro {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        color: white;
+        text-align: left;
+        padding-left: 40px;
+    }
+
+    h1.intro {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 80px;
+        color: white;
+        text-align: left;  
+        margin: 0px;
+        padding-top: 40px;
+        padding-left: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h2.intro {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 46px;
+        color: white;
+        text-align: left;  
+        margin: 0px;
+        padding-top: 10px;
+        padding-left: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Table format - Homepage */
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+    }
+
+    /* Table format - About */
+    table.about {
+        display:none
+    }
+
+    #resp-table {
+        width: 75%;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1.contact {
+        margin-top: 75px;
+    }
+
+    p.contact {
+        margin-bottom: 75px;
+    }
+
+    img.contact {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+
+}
+
+@media screen and (max-width:1100px) {
+    /* CSS for screens that are 1000 pixels or less will be put in this section */
+
+    /* CSS to adjust tables based on the size of the screen */
+    th.header {
+        cursor: pointer;
+        display: table-row;
+    }
+
+    th {
+        display: block;
+    }
+
+
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    /* Table format - About */
+    table.about {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding: 60px;
+    }
+
+    #resp-table {
+        display: none;
+    }
+    
+    h1.contact, h1.lejog {
+        margin-top: auto;
+    }
+
+    p.contact {
+        margin-bottom: auto;
+    } 
+
+    img.contact {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    img.projects {
+        display:none
+    }
+
+}
+
+/* Header, content and footer formatting */
+.header {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(8, 61, 119);
+    color:  white;
+}
+
+.content {
+    padding: 20px;
+    background: 
+    linear-gradient(
+        rgba(0, 0, 0, 0.623),
+        rgba(0, 0, 0, 0.623)
+    ),
+    url("/public/images/home-bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(8, 61, 119);
+    color: white;
+}
+
+/* General formatting for all pages */
+body {
+    font-family: 'Poppins',sans-serif;
+    margin: 0px;
+    background-color: rgb(8, 61, 119);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    color: white;
+    text-align: center;  
+    margin: 0px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+}
+
+/* Menu bar and link formatting */
+p.menu {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding-top: 15px;
+}
+
+.titlebutton {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.titlebutton:hover{
+    color: rgb(255,190,11);
+}
+
+.titlebutton_2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(255,190,11);
+    text-align: center;
+    margin: 30px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+.titlebutton_2:hover {
+    color: white;
+}
+
+/* Homepage text (introduction) */
+h1.intro {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+    text-align: left;  
+    margin: 0px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.intro {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 46px;
+    color: white;
+    text-align: left;  
+    margin: 0px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.intro {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    color: white;
+    text-align: left;
+}
+
+/* Formatting for portrait image on homepage */
+.portrait {
+    padding: 0px;
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+}
+
+/* Removes default colour of links */
+a {color: transparent;}
+
+
+
+/* Table header format */
+th {
+    text-align: center;
+}
+
+/* Format for social buttons in footer */
+img.socialimg {
+    padding: 0px 7px 0px 7px;
+}
+
+p.social {
+    margin-top: 30px;
+}
+
+/* Text formatting in footer */
+p.footer{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+h1.about {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    text-align: left;  
+    margin: 0px;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.about {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    text-align: left;  
+    margin: 0px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3.about {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    text-align: left;  
+    margin: 0px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+}
+
+h4.about {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    text-align: left;  
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: underline;
+}
+
+p.about{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+    text-align: left;
+}
+
+#resp-table-caption {
+    display: table-caption;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resp-table-header {
+    display: table-header-group;
+}
+
+.table-header-cell {
+    display: table-cell;
+    padding: 10px;
+    text-align: justify;
+}
+
+#resp-table-body {
+    display: table-row-group;
+    width: 450px;
+}
+
+.resp-table-row {
+    display: table-row;
+    width: 450px;
+}
+
+.table-body-cell {
+    display: table-cell;
+    width: 450px;
+}
+
+ul {
+    color: white;
+    text-align: left;
+    font-weight: 200;
+}
+
+h1.contact, h1.lejog {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    text-align: center;  
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.contact, p.projects{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    padding-left: 10px;
+    color: white;
+    text-align: center;
+}
+
+/* Formatting for portrait image on homepage */
+img.contact, img.projects{
+    padding: 0px;
+    border: 10px solid white;
+    border-bottom: 40px solid white;
+}
+
+a.readmore_button {
+    background-color: rgb(255,190,11); 
+    font-weight: 400;
+    border-radius: 5px; 
+    color: black; 
+    padding: 5px;
+    text-decoration: none;
+}
+
+a.readmore_button:hover {
+    background-color: rgb(250, 216, 124);
+}
