@@ -75,6 +75,28 @@
         margin-bottom: 75px;
     }
 
+    .parent {
+        display: flex;
+        background-color: transparent;
+        flex-flow: row wrap;
+        width: 90%;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: center;
+        justify-items: center;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      
+    .parent > div {
+        background-color: transparent;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        width: 40%;
+        text-align: center;
+      }
+
 }
 
 @media screen and (max-width:1100px) {
@@ -126,6 +148,27 @@
         display:none
     }
 
+    .parent {
+        display: flex;
+        background-color: transparent;
+        flex-flow: row wrap;
+        width: 100%;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: center;
+        justify-items: center;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .parent > div {
+        background-color: transparent;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+        width: 75%;
+        text-align: center;
+      }
 }
 
 /* Header, content and footer formatting */
@@ -148,6 +191,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    align-content: center;
 
 }
 
@@ -394,6 +438,7 @@ ul {
     color: white;
     text-align: left;
     font-weight: 200;
+    font-size: 15px;
 }
 
 h1.contact, h1.lejog {
@@ -438,10 +483,3 @@ a.readmore_button:hover {
 
 
 
-.parent {
-    display: flex;
-}
-
-.child {
-    display: flex;
-}
