@@ -435,3 +435,13 @@ a.readmore_button {
 a.readmore_button:hover {
     background-color: rgb(250, 216, 124);
 }
+
+
+
+.parent {
+    display: flex;
+}
+
+.child {
+    display: flex;
+}
