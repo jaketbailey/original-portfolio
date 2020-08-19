@@ -90,11 +90,12 @@
       
     .parent > div {
         background-color: transparent;
-        margin: 10px;
-        padding: 20px;
+        /* margin: 10px; */
+        padding: 10px;
         font-size: 30px;
         width: 40%;
         text-align: center;
+
       }
 
 }
@@ -163,8 +164,8 @@
 
       .parent > div {
         background-color: transparent;
-        margin: 10px;
-        padding: 20px;
+        /* margin: 10px; */
+        padding: 10px;
         font-size: 30px;
         width: 75%;
         text-align: center;
