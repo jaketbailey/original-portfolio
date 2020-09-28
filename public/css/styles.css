@@ -170,6 +170,11 @@
         width: 75%;
         text-align: center;
       }
+      
+
+      .video-js {
+          display:none;
+      }
 }
 
 /* Header, content and footer formatting */
