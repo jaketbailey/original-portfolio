@@ -126,10 +126,6 @@
         text-align: center;
     }
 
-    .titlebutton {
-        font-size: 75%;
-    }
-
     th.header {
         cursor: pointer;
         display: table-row;
