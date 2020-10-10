@@ -8,6 +8,18 @@
     /* CSS for screens that are 1001 pixels or more will be put in this section */
 
     /* Introduction CSS for the homepage for large screens*/
+
+    h1.title {
+        text-align: left;
+    }
+
+    h2.title {
+        font-size: 20px; 
+        text-align: left;
+    }
+
+
+
     p.intro {
         font-family: 'Poppins', sans-serif;
         font-weight: 200;
@@ -104,6 +116,20 @@
     /* CSS for screens that are 1000 pixels or less will be put in this section */
 
     /* CSS to adjust tables based on the size of the screen */
+
+    h1.title {
+        text-align: center;
+    }
+
+    h2.title {
+        font-size: 20px; 
+        text-align: center;
+    }
+
+    .titlebutton {
+        font-size: 75%;
+    }
+
     th.header {
         cursor: pointer;
         display: table-row;
