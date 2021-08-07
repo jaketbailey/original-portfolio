@@ -10,7 +10,7 @@
         <meta name="Description" content="Jake has several projects and completed several charity events including cycling from Land's End to John O'Groats.">
         <link rel="shortcut icon" type="image/ico" href="/public/images/favicon.ico">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
-
+        <script src="/public/js/read-more.js" charset="utf-8"></script>
         <link href="/public/js/video.js/dist/video-js.css" rel="stylesheet">
 
         <title>Jake Bailey - Projects</title>
@@ -43,44 +43,110 @@
             <div class="parent">
 
                 <div>
-                    <h3 class="about">Year 1 Scrabble Project</h3>
-                    <p class="about">
-                        I created an online multiplayer game of scrabble for my Year 1 Application Programming coursework. Despite some issues,
-                        I managed to get a functional game you can play online with 2 players.<br><br>
-                        <a href="/projects/scrabblejs" class="readmore_button">Read More</a>
-                    </p>
+                    <div class="card">
+                        <div class="placeholder-for-image">
+                            <p>
+                                <img alt="The Scrabble Gameboard" src="/public/images/scrabble.webp" class="projects">
+                            </p>
+                        </div>
+                        <div class="info">
+                            <h3 class="about">Year 1 Scrabble Project</h3>
+                        </div>
+                        <div class="description">
+                            <div class="expandMoreContent" id="showMoreContent1">
+                                <p class="projects" style="width: 75%; margin-left: auto; margin-right: auto;">
+                                    For 50% of our Application Programming module for year 1 of my Software Engineering degree we were asked to make a
+                                    game of scrabble using HTML, CSS and Javascript. For this coursework I decided to go above and beyond with my project, enabling
+                                    the user to play online multiplayer using lobbys to connect to each others game. Despite the game being slightly buggy if someone leaves the
+                                    lobby and some word detection doesn't always work, on the general I have managed to get a functional online multiplayer game of scrabble.
+                                    I have tested this game on multiple devices, so it was a shame to see it didn't work when it came to the lecturers marking. I achieved a grade of
+                                    51/100 because the game unfortunately wouldn't play on submission, however if you do wish to see this game working you can play 
+                                    <a href="https://scrabble.jaketbailey.co.uk" style="color: white;">here</a> and all the code for the project is viewable on my 
+                                    <a href="https://github.com/JakeMeistet/scrabble-coursework" style="color: white;">GitHub</a>.<br><br>
+                    
+                                    
+                                </p>
+                            </div>
+                            <div class="expandMoreHolder">
+                                <span expand-more data-hidetext="Read less" data-showtext="Read more" 
+                                data-target="showMoreContent1" class="btn-expand-more">Read more</span>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
 
                 <div>
-                    <h3 class="about">A Level Computer Science Project</h3>
-                    <p class="about">
-                        I created a cycling tracker windows forms program using VisualBasic.NET inspired by the LEJOG bike ride I completed in 2016.<br><br>
-                        <a href="/projects/a-level" class="readmore_button">Read More</a>
-                    </p>
+                    <div class="card">
+                        <div class="placeholder-for-image">
+                            <p>
+                                <img alt="Menu page in app" src="/public/images/Menu.png" class="projects">
+                            </p>
+                        </div>
+                        <div class="info">
+                            <h3 class="about">A Level Computer Science Project</h3>
+                        </div>
+                        <div class="description">
+                            <div class="expandMoreContent" id="showMoreContent2">
+                                <p class="projects" style="width: 75%; margin-left: auto; margin-right: auto;">
+                                    For my A Level coursework I created a cycling tracker windows forms program using VisualBasic.NET The charity bike ride I completed 
+                                    in 2016 was the inspiration for this program. The system that I made aimed to act as a client version of current systems such as strava.com. 
+                                    The system was designed to allow the user to enter all their past bike ride data which can then be compared against itself and other user's data. 
+                                    If I had more time on this project I would have stored all the information on an external database rather than within text files on the user's 
+                                    computer. The time limitation meant that the comparisons with other users was quite limited and every time the user was on a new computer their 
+                                    information would have to be re-entered into the system. If this was a larger scale project then the larger aims could've been accomplished. 
+                                    I have achieved a provisional grade A* for this project, and the code can be found on my 
+                                    <a href="https://github.com/JakeMeistet/alevel-coursework" style="color: white;">GitHub</a>.<br><br>
+                    
+                                    
+                                </p>
+                            </div>
+                            <div class="expandMoreHolder">
+                                <span expand-more data-hidetext="Read less" data-showtext="Read more" 
+                                data-target="showMoreContent2" class="btn-expand-more">Read more</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
 
                 <div>
-
-                    <h3 class="about">Land's End to John O'Groats 2016</h3> 
-                    <p class="about">
-                        In 2016 I cycled from Land's End to John O'Groats to raise money for charity. I raised a total of £7,300 which was 
-                        then split between 3 charities: Autoimmune Alopecia Research UK, Birmingham Children's Hospital and Sandwell Young Carers.
-                        Video credit to David Lumb (BBC)<br><br>    
-                        <video
-                            id="lejog"
-                            class="video-js"
-                            controls
-                            preload="auto"
-                            width="450"
-                            height="264"
-                            poster="/public/images/baileybikers.webp"
-                            data-setup="{}"
-                        >
+                    <div class="card">
+                        <div class="placeholder-for-image">
+                            <p>
+                                <video
+                                    id="lejog"
+                                    class="video-js"
+                                    controls
+                                    preload="auto"
+                                    poster="/public/images/baileybikers.webp"
+                                    data-setup="{}"
+                                >
                         <source src="/public/videos/LEJOG.webm" type="video/webm"/>
-                        </video><br>
-                        <a href="/projects/lejog" class="readmore_button">Read More</a>
-                    </p>
+                        </video>
+                            </p>
+                        </div>
+                        <div class="info">
+                            <h3 class="about">Land's End to John O'Groats 2016</h3> 
+                        </div>
+                        <div class="description">
+                            <div class="expandMoreContent" id="showMoreContent3">
+                                <p class="projects" style="width: 75%; margin-left: auto; margin-right: auto;">
+                                    In 2016 I cycled from Land's End to John O'Groats to raise money for charity. I raised a total of £7,300 which was then split between 3 charities: 
+                                    Autoimmune Alopecia Research UK, Birmingham Children's Hospital and Sandwell Young Carers. I trained for this bike ride weekly for over a year. 
+                                    During the training process, we met up with Mark Beaumont (markbeaumontonline.com/) who gave us advice on what equipment to use for the bike ride 
+                                    as well as different training strategies to use when approaching the ride. I also attracted the attention of the BBC's David Lumb who reported on 
+                                    my Dad and I which was later broadcast on BBC Midland's Today. I also got an interview with BBC Radio 5 Live where we discussed the charity cycle 
+                                    and some of our tips from our training experience.  
+
+                                    For a gallery of photos from the ride see <a href="https://photos.app.goo.gl/rdVSqoFaRooboQPL6" style="color: white;">Here</a>
+                                </p>
+                            </div>
+                            <div class="expandMoreHolder">
+                                <span expand-more data-hidetext="Read less" data-showtext="Read more" 
+                                data-target="showMoreContent3" class="btn-expand-more">Read more</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
