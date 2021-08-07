@@ -4,6 +4,12 @@
     zoom: 1.0 ;
 }
 
+@media screen and (max-width: 650px) {
+    .placeholder-for-image{
+        display: none;
+    }  
+}
+
 @media screen and (min-width: 1201px) {
     /* CSS for screens that are 1001 pixels or more will be put in this section */
 
@@ -572,3 +578,4 @@ img.projects{
     padding-right: auto;
     margin-top: 20px; 
 }
+
