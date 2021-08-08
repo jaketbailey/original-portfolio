@@ -4,7 +4,13 @@
     zoom: 1.0 ;
 }
 
-@media screen and (min-width: 1201px) {
+@media screen and (max-width: 650px) {
+    .placeholder-for-image{
+        display: none;
+    }  
+}
+
+@media screen and (min-width: 1401px) {
     /* CSS for screens that are 1001 pixels or more will be put in this section */
 
     /* Introduction CSS for the homepage for large screens*/
@@ -17,7 +23,6 @@
         font-size: 20px; 
         text-align: left;
     }
-
 
 
     p.intro {
@@ -112,7 +117,7 @@
 
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1400px) {
     /* CSS for screens that are 1000 pixels or less will be put in this section */
 
     /* CSS to adjust tables based on the size of the screen */
@@ -572,3 +577,4 @@ img.projects{
     padding-right: auto;
     margin-top: 20px; 
 }
+
