@@ -558,6 +558,10 @@ a.readmore_button:hover {
     font-size: 15px;
 }
 
+.btn-expand-more:hover {
+    background-color: rgb(250, 216, 124)
+}
+
 img.projects{
     width: 100%;
     height: 100%;
