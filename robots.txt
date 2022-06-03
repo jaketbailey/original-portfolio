@@ -3,7 +3,9 @@ User-agent: *
 Allow: /
 Allow: /about
 Allow: /projects
+Allow: /univsersity
 Allow: /contact
 Disallow: /robots.txt
 Disallow: /public/images
 Disallow: /public/videos
+Disallow: /public
